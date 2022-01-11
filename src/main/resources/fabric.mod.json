@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "butterslate",
+  "version": "${version}",
+  "name": "Butterslate",
+  "description": "Changes hardness and resistance of every ore and deepslate to the value of stone.",
+  "authors": [
+    "MikaDev"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/butterslate/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+    ]
+  },
+  "mixins": [
+    "butterslate.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}

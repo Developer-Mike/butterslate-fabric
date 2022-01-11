@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "mike.butterslate.mixin",
+  "compatibilityLevel": "JAVA_16",
+  "mixins": [
+    "BlockSettingsAccessor",
+    "BlocksMixin",
+    "BlockStateAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
